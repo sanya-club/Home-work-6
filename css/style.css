@@ -78,6 +78,7 @@ body {
 
 .header-top__form input[type="text"],
 .header-top__form input[type="password"] {
+  
   width: 108px;
   height: 13px;
   border: 0px solid #ccc;
@@ -101,10 +102,11 @@ body {
 
 .enter {
   padding: 0;
-  padding-right: 6px;
+  padding-right: 4px;
   background: transparent;
   border: 0;
   font-size: 10.91px;
+  line-height: 1;
   letter-spacing: 0.65px;
   color: #fff;
   border-right: 1px solid #fff;
@@ -440,8 +442,6 @@ body {
   margin-right: 0px;
 }
 
-.item:nth-child(3) {}
-
 .item-title {
   padding: 0 0 2px 0;
   margin: 0 0 0 0;
@@ -677,21 +677,25 @@ body {
 }
 
 .partners a:nth-child(6) {
-  display: inline-block;
-  vertical-align: top;
-  background: url(../img/sprites2.png) no-repeat;
-  background-position: -478px -316px;
-  width: 57px;
-  height: 26px;
+  position: relative;
+    top: -6px;
+    left: 0;
+    display: inline-block;
+    vertical-align: bottom;
+    background: url(../img/sprites2.png) no-repeat;
+    background-position: -479px -310px;
+    width: 57px;
+    height: 30px
 }
 
 .partners a:nth-child(6):hover {
+  
   display: inline-block;
-  vertical-align: top;
+  vertical-align: bottom;
   background: url(../img/sprites2.png) no-repeat;
-  background-position: -313px -316px;
+  background-position: -313px -310px;
   width: 57px;
-  height: 26px;
+  height: 30px;
   opacity: 1;
 }
 
@@ -740,7 +744,7 @@ body {
   width: 910px;
   height: 100px;
   padding: 0;
-  margin-top: 22px;
+  margin-top: 18px;
   background: #213a4d;
   border: 1px solid #242c3e;
   border-top-left-radius: 2px;
@@ -788,4 +792,38 @@ body {
   font-size: 10px;
   line-height: 18px;
   color: #7f4740;
+}
+
+/*=====pixel perfect*/
+
+.header-top__form input[type="text"],
+.header-top__form input[type="password"] {
+  position: relative;
+  top: -3px;
+  left: 0;
+  padding-bottom: 2px;
+}
+
+.header-top__form a, .enter {
+  position: relative;
+  top: -2px;
+  left: 0;
+}
+
+.pixel-titel {
+  position: relative;
+  top: 0;
+  left: 2px;
+}
+
+.tires {
+  position: relative;
+  top: 2px;
+  left: 0;
+}
+
+.pixel {
+   position: relative;
+  top: 2px;
+  left: 2px;
 }
