@@ -447,6 +447,7 @@ body {
   margin: 0 0 0 0;
   font-size: 14.59px;
   line-height: 12.27px;
+  font-weight: bold;
   color: #206988;
   text-align: center;
 }
@@ -563,25 +564,59 @@ body {
 }
 
 .partners a {
-  opacity: .4;
+  opacity: .4
 }
 
 .partners a:first-child {
+  position: relative;
   display: inline-block;
   vertical-align: top;
   background: url(../img/sprites2.png) no-repeat;
   background-position: -161px -313px;
   width: 83px;
   height: 26px;
+ 
+}
+
+/*
+.partners a::before {
+  content: attr(data-name);
+  position: absolute;
+  top: -27px;
+  left: -33px;
+  
+}
+*/
+
+.partners a:first-child:hover {
+  
+   display: inline-block;
+  vertical-align: top;
+  background: url(../img/sprites2.png) no-repeat;
+  background-position: 0px -316px;
+  width: 83px;
+  height: 26px;
+  opacity: 1;
 }
 
 .partners a:nth-child(2) {
   display: inline-block;
   vertical-align: top;
   background: url(../img/sprites2.png) no-repeat;
-  background-position: -296px -19px;
+  background-position: -296px -18px;
   width: 112px;
   height: 26px;
+  
+}
+
+.partners a:nth-child(2):hover {
+  display: inline-block;
+  vertical-align: top;
+  background: url(../img/sprites2.png) no-repeat;
+  background-position: -447px -17px;
+  width: 112px;
+  height: 26px;
+  opacity: 1;
 }
 
 .partners a:nth-child(3) {
@@ -593,22 +628,52 @@ body {
   height: 26px;
 }
 
+.partners a:nth-child(3):hover {
+  display: inline-block;
+  vertical-align: top;
+  background: url(../img/sprites2.png) no-repeat;
+  background-position: -10px -114px;
+  width: 87px;
+  height: 26px;
+  opacity: 1;
+}
+
 .partners a:nth-child(4) {
   display: inline-block;
   vertical-align: top;
   background: url(../img/sprites2.png) no-repeat;
-  background-position: -476px -114px;
+  background-position: -476px -115px;
   width: 66px;
   height: 26px;
+}
+
+.partners a:nth-child(4):hover {
+  display: inline-block;
+  vertical-align: top;
+  background: url(../img/sprites2.png) no-repeat;
+  background-position: -318px -116px;
+  width: 66px;
+  height: 26px;
+  opacity: 1;
 }
 
 .partners a:nth-child(5) {
   display: inline-block;
   vertical-align: top;
   background: url(../img/sprites2.png) no-repeat;
-  background-position: -12px -16px;
+  background-position: -12px -15px;
   width: 85px;
   height: 26px;
+}
+
+.partners a:nth-child(5):hover {
+  display: inline-block;
+  vertical-align: top;
+  background: url(../img/sprites2.png) no-repeat;
+  background-position: -160px -19px;
+  width: 85px;
+  height: 26px;
+  opacity: 1;
 }
 
 .partners a:nth-child(6) {
@@ -620,13 +685,33 @@ body {
   height: 26px;
 }
 
+.partners a:nth-child(6):hover {
+  display: inline-block;
+  vertical-align: top;
+  background: url(../img/sprites2.png) no-repeat;
+  background-position: -313px -316px;
+  width: 57px;
+  height: 26px;
+  opacity: 1;
+}
+
 .partners a:nth-child(7) {
   display: inline-block;
   vertical-align: top;
   background: url(../img/sprites2.png) no-repeat;
-  background-position: -162px -219px;
+  background-position: -162px -217px;
   width: 77px;
   height: 14px;
+}
+
+.partners a:nth-child(7):hover {
+  display: inline-block;
+  vertical-align: top;
+  background: url(../img/sprites2.png) no-repeat;
+  background-position: -12px -217px;
+  width: 77px;
+  height: 14px;
+  opacity: 1;
 }
 
 .partners a:nth-child(8) {
@@ -636,6 +721,16 @@ body {
   background-position: -321px -221px;
   width: 72px;
   height: 13px;
+}
+
+.partners a:nth-child(8):hover {
+  display: inline-block;
+  vertical-align: top;
+  background: url(../img/sprites2.png) no-repeat;
+  background-position: -460px -218px;
+  width: 72px;
+  height: 13px;
+  opacity: 1;
 }
 
 
