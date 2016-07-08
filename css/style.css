@@ -348,7 +348,7 @@ body {
   position: relative;
   margin: 0;
   margin-top: 13px;
-  padding-left: 29px;
+  padding-left: 30px;
   padding-top: 3px;
   padding-bottom: 1px;
   width: 120px;
@@ -363,7 +363,7 @@ body {
   content: "";
   position: absolute;
   top: 2px;
-  left: 3px;
+  left: 4px;
   box-sizing: border-box;
   border: 5px solid #114165;
   border-radius: 50%;
@@ -464,7 +464,7 @@ body {
 .img-item {
   background: #fff;
   width: 135px;
-  height: 127px;
+  height: 128px;
   border: 1px solid #b0b9bc;
   border-radius: 8px;
 }
@@ -474,7 +474,7 @@ body {
 }
 
 .price {
-  margin: 8px 0px 0px 8px;
+  margin: 7px 0px 0px 8px;
   font-family: 'Arial', sans-serif;
   font-size: 17px;
   line-height: 10px;
@@ -506,7 +506,7 @@ body {
 .brands .list-title {
   width: 105px;
   margin-top: 11px;
-  padding-left: 29px;
+  padding-left: 30px;
   padding-top: 3px;
   padding-bottom: 1px;
 }
@@ -528,7 +528,7 @@ body {
 }
 
 .brands__form label {
-  font-size: 12.73px;
+  font-size: 13px;
   line-height: 25px;
   color: #465961;
   display: inline-block;
@@ -543,7 +543,6 @@ body {
   border: 0;
   padding: 13px 12px 14px 12px;
   border-radius: 13px;
-  color: #b1bcc0;
   font-size: 11px;
   line-height: 0;
   letter-spacing: .6px;
@@ -769,7 +768,7 @@ body {
 
 .footer-nav ul li a {
   display: block;
-  padding: 5px 12px 6px 14px;
+/*  padding: 5px 12px 6px 14px;*/
   color: #bec6c9;
   font-family: 'Arial', sans-serif;
   font-size: 12px;
@@ -796,6 +795,48 @@ body {
 
 /*=====pixel perfect*/
 
+.pay {
+  position: relative;
+  top: 0px;
+  left: 2px;
+}
+
+.contacts {
+  position: relative;
+  top: 0px;
+  left: -4px;
+}
+
+.devilery {
+   position: relative;
+  top: 0px;
+  left: 3px;
+}
+
+.commodity {
+   position: relative;
+  top: -1px;
+  left: 1px;
+}
+
+.sum {
+   position: relative;
+  top: -1px;
+  left: 0px;
+}
+
+.basket--text1 {
+   position: relative;
+  top: 1px;
+  left: -3px;
+}
+
+.basket--text2 {
+   position: relative;
+  top: 1px;
+  left: 2px;
+}
+
 .header-top__form input[type="text"],
 .header-top__form input[type="password"] {
   position: relative;
@@ -810,20 +851,264 @@ body {
   left: 0;
 }
 
-.pixel-titel {
+.item-title2 {
   position: relative;
   top: 0;
   left: 2px;
 }
 
-.tires {
+/*
+.about-item2 {
   position: relative;
-  top: 2px;
-  left: 0;
+  top: 0;
+  left: 0px;
+}
+*/
+
+.price2 {
+  position: relative;
+  top: 1px;
+  left: 3px;
 }
 
-.pixel {
+.item-title3 {
+  position: relative;
+  top: 0px;
+  left: 2px;
+}
+
+.about-item3 {
+  position: relative;
+  top: 0;
+  left: -2px;
+}
+
+.price3 {
+  position: relative;
+  top: 0;
+  left: 2px;
+}
+
+/*
+.item-title4 {
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.about-item4 {
+  position: relative;
+  top: 0;
+  left: 0px;
+}
+*/
+
+.price4 {
+  position: relative;
+  top: 0;
+  left: 1px;
+}
+
+.item-title5 {
+   position: relative;
+  top: -1px;
+  left: 1px;
+}
+
+.about-item5 {
+  position: relative;
+  top: -1px;
+  left: -1px;
+}
+
+.price5 {
+  position: relative;
+  top: 0;
+  left: 3px;
+}
+
+/*
+.item-title5 {
    position: relative;
   top: 2px;
   left: 2px;
+}
+
+.about-item5 {
+  position: relative;
+  top: 0;
+  left: 0px;
+}
+
+.price5 {
+  position: relative;
+  top: 0;
+  left: 0px;
+}
+*/
+
+.item-title6 {
+   position: relative;
+  top: -1px;
+  left: 2px;
+}
+
+.about-item6 {
+  position: relative;
+  top: -1px;
+  left: -2px;
+}
+
+.price6 {
+  position: relative;
+  top: 0;
+  left: 2px;
+}
+
+.item7 {
+   position: relative;
+  top: 3px;
+  left: 0px;
+}
+
+.item-title7 {
+   position: relative;
+  top: -2px;
+  left: -1px;
+}
+
+.about-item7 {
+  position: relative;
+  top: -2px;
+  left: 0px;
+}
+
+.price7 {
+  position: relative;
+  top: -1px;
+  left: 0px;
+}
+
+.item8 {
+   position: relative;
+  top: 2px;
+  left: 0px;
+}
+
+.item-title8 {
+   position: relative;
+  top: 0px;
+  left: 2px;
+}
+
+.about-item8 {
+  position: relative;
+  top: 0;
+  left: 0px;
+}
+
+.price8 {
+  position: relative;
+  top: 0;
+  left: 2px;
+}
+
+.item9 {
+   position: relative;
+  top: 3px;
+  left: 0px;
+}
+
+.item-title9 {
+   position: relative;
+  top: -1px;
+  left: 2px;
+}
+
+.about-item9 {
+  position: relative;
+  top: -1px;
+  left: -2px;
+}
+
+.price9 {
+  position: relative;
+  top: -1px;
+  left: 1px;
+}
+
+.tires {
+  position: relative;
+  top: 2px;
+  left: 1px;
+}
+
+.check1 {
+  position: relative;
+  top: 3px;
+  left: -1px;
+}
+
+.check2 {
+  position: relative;
+  top: 2px;
+  left: -1px;
+}
+
+.check3 {
+  position: relative;
+  top: 1px;
+  left: -1px;
+}
+
+.disks {
+  position: relative;
+  top: -1px;
+  left: -1px;
+}
+
+.check4 {
+  position: relative;
+  top: 2px;
+  left: -2px;
+}
+
+.check5 {
+  position: relative;
+  top: 1px;
+  left: -1px;
+}
+
+.check6 {
+  position: relative;
+  top: 0px;
+  left: -1px;
+}
+
+.footer-nav1 {
+  position: relative;
+  top: 0px;
+  left: -1px;
+  padding: 5px 12px 6px 14px; 
+}
+
+.footer-nav2 {
+  position: relative;
+  top: 0px;
+  left: -1px;
+  padding: 5px 13px 6px 14px; 
+}
+
+.footer-nav3 {
+  position: relative;
+  top: 0px;
+  left: -1px;
+  padding: 5px 12px 6px 14px; 
+}
+
+.footer-nav4 {
+  position: relative;
+  top: 0px;
+  left: 3px;
+  padding: 5px 12px 6px 14px; 
 }
